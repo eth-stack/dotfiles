@@ -1,1 +1,126 @@
-/home/nghiatd/.config/Code/User/settings.json
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "'Ubuntu Mono derivative Powerline', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 18,
+  "editor.rulers": [80, 120],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vim.leader": "<space>",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "c", "o"],
+      "commands": ["editor.action.organizeImports"]
+    },
+    {
+      "before": ["<leader>", "c", "r"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "=", "="],
+    "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.goToDeclaration"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["]", "g"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["[", "g"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<space>", "<space>"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<space>", "b", "["],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<space>", "b", "]"],
+      "commands": ["workbench.action.nextEditor"],
+    },
+    {
+      "before": ["<space>", "o", "p"],
+      "commands": ["workbench.action.toggleSidebarVisibility"],
+    },
+    {
+      "before": ["<space>", "p", "p"],
+      "commands": ["workbench.action.openRecent"],
+    },
+  ],
+  "vim.useSystemClipboard": true,
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.trailingComma": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "window.zoomLevel": 1,
+  "editor.foldingImportsByDefault": true,
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.css": "postcss",
+    "*.scss": "postcss"
+  },
+  "[cpp]": {
+
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "postcss.validate": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "redhat.telemetry.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "terminal.explorerKind": "external"
+}

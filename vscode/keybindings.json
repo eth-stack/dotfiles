@@ -1,1 +1,47 @@
-/home/nghiatd/.config/Code/User/keybindings.json
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly && vim.active"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly && vim.active"
+  },
+//   {
+//     "key": "space b [",
+//     "command": "workbench.action.previousEditor",
+//     "when": "inputFocus && vim.mode == 'Normal'",
+//   },
+//   {
+//     "key": "space b ]",
+//     "command": "workbench.action.nextEditor",
+//     "when": "inputFocus && vim.mode == 'Normal'",
+//   },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+w k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+w j",
+    "command": "workbench.action.navigateDown"
+  }
+]
