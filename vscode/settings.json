@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Dracula",
-  "editor.fontFamily": "'Ubuntu Mono derivative Powerline', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontSize": 18,
+  "editor.fontFamily": "'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 16,
   "editor.rulers": [80, 120],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescript]": {
